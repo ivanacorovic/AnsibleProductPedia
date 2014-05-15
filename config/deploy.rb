@@ -3,7 +3,7 @@ set :application, "productpedia"
 set :deploy_user, "deployer"
 
 set :scm, "git"
-set :repo_url, "git@github.com:shiljos/AnsibleProductPedia.git"
+set :repo_url, "https://github.com/ivanacorovic/AnsibleProductPedia.git"
 set :rbenv_type, :user
 set :rbenv_ruby, '2.1.0'
 set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
