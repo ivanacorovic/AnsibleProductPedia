@@ -20,7 +20,7 @@ set :branch, "master"
 
 set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
 
-server 'nagios-patient', user: 'deployer', roles: %w{web app db}
+server '107.170.5.56', user: 'deployer', roles: %w{web app db}
 
 set :deploy_to, "/home/#{fetch(:deploy_user)}/apps/#{fetch(:full_app_name)}"
 
