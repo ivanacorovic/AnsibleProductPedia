@@ -23,7 +23,6 @@ gem 'backup'
 gem 'whenever', :require => false
 gem 'simplecov-rcov'
 gem 'simplecov'
-gem 'logstasher'
 
 group :test, :development do
   gem 'rspec-rails'
